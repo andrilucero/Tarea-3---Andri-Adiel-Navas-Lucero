@@ -28,7 +28,7 @@ namespace Tarea3_AndriLucero
                 case "1":
 
                     Console.WriteLine("\tIngrese la cantidad en dólares:\t");
-                    CAN = Convert.ToByte(Console.ReadLine());
+                    CAN = Convert.ToInt32(Console.ReadLine());
                     valor = ((float)(CAN * tipodecambio));
                     linea = Console.ReadLine();
                     Console.WriteLine("\tUsted ha ingresado\t" + "$" + CAN);
@@ -144,7 +144,7 @@ namespace Tarea3_AndriLucero
                 case "3":
 
                 default:
-                    Console.WriteLine("Un gusto haberte ayudado!");
+                    Console.WriteLine("Fue un gusto haberte ayudado!");
                     break;
             }
 
